@@ -10,7 +10,7 @@ def using_pop( array )
   array.pop
 end
 
-def pop_with_args( array, quantity )
+def pop_with_args( array, quantity=2 )
   counter=0
   return_array=[]
   while counter<quantity
