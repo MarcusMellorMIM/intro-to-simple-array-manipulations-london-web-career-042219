@@ -24,13 +24,14 @@ def using_shift( array )
   array.shift 
 end
 
-def shift_with_args( array, quantity=1 )
+def shift_with_args( array, quantity=2)
   counter=0
   return_array=[]
   while counter<quantity
     return_array << array.shift
     counter+=1
   end
+  return_array
 end
 
 def using_concat( array1, array2 )
